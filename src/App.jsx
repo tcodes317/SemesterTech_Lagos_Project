@@ -8,6 +8,8 @@ import SignIn from './components/SignIn.jsx';
 import ResetPassword from './components/ResetPassword.jsx';
 import ResetPasswords from './components/ResetPasswords.jsx';
 import ResetSuccessfully from './components/ResetSuccessfully.jsx';
+import ExploreState from "./components/ExploreStates.jsx"
+
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
         <Route path='/reset-password' element={<ResetPassword />} />
         <Route path="/reset-passwords" element={<ResetPasswords />} />
         <Route path="/reset-successfully" element={<ResetSuccessfully />} />
+        <Route path="/explore-state" element={<ExploreState />} />
       </Routes>
     </>
   )

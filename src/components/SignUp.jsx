@@ -4,7 +4,7 @@ function SignUp(){
     return(
         <>
             <div className="flex items-center flex-col justify-center h-[100vh] w-[300px] overflow-x-hidden mx-auto">
-                <h1 className="text-center text-black font-bold text-3xl py-2">Logo</h1>
+                <h1 className="text-center text-[#2D7C59] font-bold text-3xl py-2">Logo</h1>
                 <h3 className="font-bold text-xl py-3">Register a new vendor account</h3>
                 <form action="" method="POST" className="w-full space-y-2">
                     <div className="flex flex-col space-y-2">
@@ -50,7 +50,7 @@ function SignUp(){
                         </div>
                         </div>
                     </div>
-                    <button className="text-center bg-black mt-6 text-white p-2 w-full rounded-md hover:bg-green-900 hover:cursor-pointer">
+                    <button className="text-center bg-[#2D7C59] mt-6 text-white p-2 w-full rounded-md hover:bg-green-900 hover:cursor-pointer">
                         <span>Continue</span>
                     </button>
                 </form>
