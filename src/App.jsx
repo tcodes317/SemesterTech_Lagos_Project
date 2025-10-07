@@ -11,6 +11,8 @@ import ResetSuccessfully from './components/ResetSuccessfully.jsx';
 import ExploreState from "./components/ExploreStates.jsx"
 import LagosState from './components/LagosState.jsx';
 import OpportunitiesDetails from './components/OpportunitiesDetails.jsx';
+import ContactInvestmentDesk from './components/ContactInvestmentDesk.jsx';
+import Download from "./components/Downloads.jsx";
 
 function App() {
 
@@ -28,6 +30,8 @@ function App() {
         <Route path="/explore-state" element={<ExploreState />} />
         <Route path="/explore-state/lagos" element={<LagosState />} />
         <Route path="/explore-state/lagos/opportunities-details" element={<OpportunitiesDetails />} />
+        <Route path="/explore-state/lagos/opportunities-details/contactinvestmentdesk" element={<ContactInvestmentDesk />} />
+        <Route path="/download" element={<Download />} />
       </Routes>
     </>
   )
