@@ -13,6 +13,7 @@ import LagosState from './components/LagosState.jsx';
 import OpportunitiesDetails from './components/OpportunitiesDetails.jsx';
 import ContactInvestmentDesk from './components/ContactInvestmentDesk.jsx';
 import Download from "./components/Downloads.jsx";
+import NigeriaInvestment from "./components/NigeriaInvestment.jsx"
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/explore-state/lagos/opportunities-details" element={<OpportunitiesDetails />} />
         <Route path="/explore-state/lagos/opportunities-details/contactinvestmentdesk" element={<ContactInvestmentDesk />} />
         <Route path="/download" element={<Download />} />
+        <Route path="/NigeriaInvestment" element={<NigeriaInvestment />} />
       </Routes>
     </>
   )
