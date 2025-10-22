@@ -14,8 +14,8 @@ function Header(){
                                 <Link to="/">Home</Link>
                                 <Link to="/explore-state">Explore States</Link>
                                 <Link to="/">Analytics</Link>
-                                <Link to="/">Downloads</Link>
-                                <Link to="/">Contact</Link>
+                                <Link to="/download">Downloads</Link>
+                                <Link to="/contact">Contact</Link>
                             </nav>
                         </div>
                         <div className="relative space-x-4">

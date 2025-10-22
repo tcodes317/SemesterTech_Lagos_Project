@@ -9,7 +9,10 @@ import ResetPassword from './components/ResetPassword.jsx';
 import ResetPasswords from './components/ResetPasswords.jsx';
 import ResetSuccessfully from './components/ResetSuccessfully.jsx';
 import ExploreState from "./components/ExploreStates.jsx"
-
+import LagosState from './components/LagosState.jsx';
+import OpportunitiesDetails from './components/OpportunitiesDetails.jsx';
+import Download from "./components/Download.jsx";
+import ContactInvestmentDesk from "./components/ContactInvestmentDesk.jsx";
 
 function App() {
 
@@ -25,6 +28,10 @@ function App() {
         <Route path="/reset-passwords" element={<ResetPasswords />} />
         <Route path="/reset-successfully" element={<ResetSuccessfully />} />
         <Route path="/explore-state" element={<ExploreState />} />
+        {/* <Route path="/explore-state/lagos" element={<LagosState />} /> */}
+        <Route path="/explore-state/lagos/opportunities-details" element={<OpportunitiesDetails /> } />
+        <Route path="/download" element={<Download />} />
+        <Route path="/contact" element={<ContactInvestmentDesk />} />
       </Routes>
     </>
   )

@@ -18,13 +18,13 @@ function SignIn(){
                     <div className="text-right font-bold">
                         <Link to="/forgot-password">Forgot Password?</Link>
                     </div>
-                    <button className="text-center bg-black mt-6 text-white p-2 w-full rounded-md hover:bg-green-900 hover:cursor-pointer">
-                        <span>SignIn</span>
+                    <button className="text-center bg-green-900 hover:text-black hover:border-2 hover:border-black border-2 border-green-900 mt-6 text-white p-2 w-full rounded-md hover:bg-white hover:cursor-pointer">
+                        <span>Sign In</span>
                     </button>
                 </form>
                 <div className="mt-8">
                     <p>Don't have an account? 
-                        <Link className="ml-1 text-black font-bold" to="/login">Sign Up</Link>
+                        <Link className="ml-1 text-black font-bold" to="/signup">Sign Up</Link>
                     </p>
                 </div>
             </div>

@@ -5,7 +5,7 @@ function SignUp(){
         <>
             <div className="flex items-center flex-col justify-center h-[100vh] w-[300px] overflow-x-hidden mx-auto">
                 <h1 className="text-center text-[#2D7C59] font-bold text-3xl py-2">Logo</h1>
-                <h3 className="font-bold text-xl py-3">Register a new vendor account</h3>
+                <h3 className="font-bold text-xl py-3 mb-5">Register a new vendor account</h3>
                 <form action="" method="POST" className="w-full space-y-2">
                     <div className="flex flex-col space-y-2">
                         <p>Full Name</p>
@@ -29,7 +29,7 @@ function SignUp(){
                             <span>Uppercase</span>
                         </button>
                         <button className="text-xs flex items-center space-x-2 border-2 p-1.5 rounded-full">
-                            <i className="fa fa-check"></i>
+                            <i className="fa fa-times"></i>
                             <span>Lowercase</span>
                         </button>
                         <button className="text-xs flex items-center space-x-2 border-2 p-1.5 rounded-full">
@@ -56,7 +56,7 @@ function SignUp(){
                 </form>
                 <div className="mt-8">
                     <p>If you already have an account, 
-                        <Link className="ml-1 text-black font-bold" to="/login">Login</Link>
+                        <Link className="ml-1 text-black font-bold" to="/signin">Login</Link>
                     </p>
                 </div>
             </div>

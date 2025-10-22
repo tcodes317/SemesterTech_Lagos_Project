@@ -22,7 +22,7 @@ function ResetPasswords(){
                     <i className="fa fa-eye"></i>
                     </div>
 
-                    <button className="p-2.5 text-white bg-black mt-4 w-full rounded-lg">
+                    <button className="p-2.5 text-white bg-green-900 mt-4 w-full rounded-lg">
                         <span>Create new password</span>
                     </button>
                 </div>

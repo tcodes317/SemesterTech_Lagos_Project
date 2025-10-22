@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ResetPassword(){
     return(
         <>
@@ -11,14 +13,16 @@ function ResetPassword(){
                         <p>Email address</p>
                         <input type="email" placeholder="Enter your email address" className="p-2 border-2 rounded-lg w-full" />
                     </div>
-                    <button className="p-2.5 bg-black w-full text-white rounded-lg">
+                    <button className="p-2.5 bg-green-900 border-2 border-green-900 w-full text-white rounded-lg">
                         <span>Send Veification Code</span>
                     </button>
                     
-                    <button className="p-2.5 space-x-3 mt-4 w-full text-black rounded-lg">
-                        <i className="fa fa-arrow-left"></i>
-                        <span>Back</span>
-                    </button>
+                    <Link to="/signin">
+                        <button className="p-2.5 space-x-3 mt-4 w-full text-black rounded-lg">
+                            <i className="fa fa-arrow-left"></i>
+                            <span>Back</span>
+                        </button>
+                    </Link>
                 </form>
             </div>
         </>

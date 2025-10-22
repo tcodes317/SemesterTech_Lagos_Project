@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { Link } from "react-router-dom";
 
 const CodeEntry = () => {
   const [code, setCode] = useState(['', '', '', '', '', '']);
@@ -43,15 +44,17 @@ const CodeEntry = () => {
           />
         ))}
       </div>
-        <button className='text-center mt-4 bg-black rounded-lg text-white p-2 w-full'>
+        <button className='text-center mt-4 bg-green-900 hover:cursor-pointer hover:bg-white hover:border-2 hover:border-black hover:transition-all border-2 border-green-900 hover:text-black rounded-lg text-white p-2 w-full'>
             <span>Verify button</span>
         </button>
         <div className='flex space-y-2 items-centers flex-col mt-4 w-full'>
-            <p className="text-left">Don't get a code? <b>Resend Code</b></p>
+            <p className="text-left">Don't get a code? <b className="cursor-pointer">Resend Code</b></p>
+            <Link to="/signup">
             <button className="flex ani w-full justify-center p-2 mt-4 items-center space-x-2">
                 <i className='fa fa-arrow-left'></i>
                 <span>Back</span>
             </button>
+            </Link>
         </div>
     </div>
   );
