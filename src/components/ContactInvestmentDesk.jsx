@@ -1,28 +1,16 @@
-<<<<<<< HEAD
 import Header from "./Header/Header.jsx";
 import Footer from "./Footer/Footer.jsx";
-
 import i from "./../assets/Subtract.png";
 import ii from "./../assets/Icon (1).png";
 import iii from "./../assets/Icon.png";
 import iv from "./../assets/Icon 1.png";
 import v from "./../assets/Icon (2).png";
-=======
-import Header from "./../components/Header/Header";
-import meg from "./../assets/Subtract.png";
-import phone from "./../assets/icon (1).png";
-import linkedin from "./../assets/icon (2).png";
-import facebook from "./../assets/icon.png";
-import twitter from "./../assets/icon 1.png";
-import Footer from "./../components/Footer/Footer";
->>>>>>> a9a8dc47d91f3af68a9110d7b6854704a54d473c
 
 function ContactInvestmentDesk(){
     return(
         <>
             <div className="relative w-[94%] mx-auto">
                 <Header />
-<<<<<<< HEAD
                 <main className="container mx-auto px-4 mt-12 mb-12">
         <section>
             <div>
@@ -152,8 +140,7 @@ function ContactInvestmentDesk(){
             </div>
         </section>
     </main>
-=======
-                <main className="mt-12 mb-12">
+                {/* <main className="mt-12 mb-12">
                     <section>
                         <div className="">
                             <h1 className="text-3xl font-bold mb-8">Connect with the Investment Desk</h1>
@@ -289,16 +276,11 @@ function ContactInvestmentDesk(){
                     
                         </div>
                     </section>
-                </main>
->>>>>>> a9a8dc47d91f3af68a9110d7b6854704a54d473c
+                </main> */}
                 <Footer />
             </div>
         </>
     )
 }
-<<<<<<< HEAD
-export default ContactInvestmentDesk;
-=======
 
 export default ContactInvestmentDesk
->>>>>>> a9a8dc47d91f3af68a9110d7b6854704a54d473c
