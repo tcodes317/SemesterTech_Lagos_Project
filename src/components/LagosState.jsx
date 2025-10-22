@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 import Header from "./Header/Header";
+=======
+import Footer from "./Footer/Footer";
+>>>>>>> a9a8dc47d91f3af68a9110d7b6854704a54d473c
 import i from "./../assets/Frame 2147235220.png";
 import ii from "./../assets/image 5.png";
 import iii from "./../assets/image 6.png";
 import iv from "./../assets/image 7.png";
+<<<<<<< HEAD
 import Footer from "./Footer/Footer";
+=======
+import Header from "./Header/Header";
+>>>>>>> a9a8dc47d91f3af68a9110d7b6854704a54d473c
 
 function LagosState(){
     return(
@@ -93,6 +101,7 @@ function LagosState(){
                             </div>
                         </div>
                     </section>
+<<<<<<< HEAD
                         <section className="my-18">
                             <div className="flex justify-between space-x-12">
                                 <div className="space-y-5 bg-[#FAFAFAFA] p-12">
@@ -214,6 +223,31 @@ function LagosState(){
                             
 
                             
+=======
+                    <section className="my-18">
+                        <div className="flex justify-between space-x-12">
+                            <div className="space-y-5 bg-[#FAFAFAFA] p-12">
+                                <h1 className="text-4xl font-bold">Key Policy Initiatives</h1>
+                                <ul className="space-y-5 list-disc">
+                                    <li>Lagos Electricity Bill 2024 aims to create an independent and reliable Electricity market</li>
+                                    <li>The lagos State Science Research and Innovation Council (LASRIC) enables the fundamental levers of the research development and innovation ecosystem</li>
+                                    <li>Lagos International Financial Centre (LFC) seeks to establish Lagos as Arica's top financial hub in line with the Lagos State Development Plan (2022-2052)</li>
+                                    <li>Incentives include fox breaks, free subsidies, and fast-tracked issuance of land titles</li>
+                                    <li>Lekki Free Trade Zone (LFTZ) offers tax exemptions, levies, rate duty-free imports, machinery, raw materials and spare parts</li>
+                                    <li>Lagos State Employment Trust Fund (LSETF), supports SMEs with funding, low-interest loans, and training</li>
+                                </ul>
+                            </div>
+                            <div className="space-y-5 bg-[#FAFAFAFA] p-12">
+                                <h1 className="text-3xl font-bold">Competitive Advantage</h1>
+                                <ul className="space-y-5 list-disc">
+                                    <li>Lagos's Aquatic splendor and costallation makes it a hub for trade, tourism, and marine industries</li>
+                                    <li>Over 20 million population provides a vast and lucrative market for businesses</li>
+                                    <li>Developed ports, airports, and transport networks Ofers a large, skilled and educated workforce</li>
+                                    <li>Lagos state government supports businesses through tax incentives, investment promotions, and infrastructure development</li>
+                                    <li>Offers businesses easy access to captial through its strong financial sector</li>
+                                </ul>
+                            </div>
+>>>>>>> a9a8dc47d91f3af68a9110d7b6854704a54d473c
                         </div>
                     </section>
                     <section className="my-18">
@@ -251,8 +285,11 @@ function LagosState(){
                                     <i className="fa fa-download"></i>
                                 </button>
                             </div>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> a9a8dc47d91f3af68a9110d7b6854704a54d473c
                         </div>
                     </section>
                 </main>
